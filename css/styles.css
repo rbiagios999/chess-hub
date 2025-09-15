@@ -5,6 +5,7 @@ body {
   color: SlateGray;
 }
 
+
 p {
   color: white;
   background-color: black;
@@ -16,7 +17,8 @@ p {
   width: 80%;
 }
 
-h1 {
+
+h1  {
   color: white;
   background-color: black;  
   padding: 20px;
@@ -36,6 +38,7 @@ h1 {
   margin-right: auto;
   width: 400px;
 }
+
 
 nav {
   background-color: black;
@@ -77,5 +80,6 @@ a:hover {
 a:visited {
   color: lightgray;
 }
+
 
 
