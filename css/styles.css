@@ -1,1 +1,83 @@
-/*  test   */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: LemonChiffon;
+  color: SlateGray;
+}
+
+
+p {
+  color: white;
+  background-color: black;
+  font-family: "Times New Roman", serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 15px auto;
+  width: 80%;
+}
+
+
+h1  {
+  color: white;
+  background-color: black;  
+  padding: 20px;
+  text-align: center;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+.set-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+
+nav {
+  background-color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 15px auto;
+  width: 40%;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  display: block;
+  width: fit-content;
+  margin: 20px auto; 
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: black;
+}
+
+a {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  text-decoration: underline; /* add underline */
+}
+
+a:hover {
+  color: yellow;          /* change text color on hover */
+  text-decoration: underline; /* keep underline on hover */
+}
+
+a:visited {
+  color: lightgray;
+}
+
