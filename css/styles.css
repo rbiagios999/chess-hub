@@ -81,3 +81,12 @@ a:visited {
   color: lightgray;
 }
 
+.left-link {
+  display: block;
+  margin: 20px 0 20px 20px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  width: fit-content;
+}
