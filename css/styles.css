@@ -5,7 +5,6 @@ body {
   color: SlateGray;
 }
 
-
 p {
   color: white;
   background-color: black;
@@ -17,8 +16,7 @@ p {
   width: 80%;
 }
 
-
-h1  {
+h1 {
   color: white;
   background-color: black;  
   padding: 20px;
@@ -73,7 +71,6 @@ nav a {
   text-decoration: none;
   padding: 0.5rem 0.75rem;
   display: block;
-  transition: color 0.3s ease;
 }
 
 nav a:hover {
@@ -82,20 +79,12 @@ nav a:hover {
 }
 
 a {
-  display: block;
-  width: fit-content;
+  display: inline-block;
   margin: 20px auto; 
   color: white;
-  text-decoration: none;
-  font-weight: bold;
-  background-color: black;
-}
-
-a {
-  color: white;
   background-color: black;
   font-weight: bold;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 a:hover {
@@ -108,14 +97,11 @@ a:visited {
 }
 
 .left-link {
-  display: block;
+  display: inline-block;
   margin: 20px 0 20px 20px;
   color: white;
   background-color: black;
   font-weight: bold;
   text-decoration: underline;
-  width: fit-content;
 }
-
-
 
