@@ -39,20 +39,40 @@ h1  {
   width: 400px;
 }
 
-
 nav {
   background-color: black;
   font-size: 18px;
   font-weight: bold;
   padding: 10px;
   margin: 15px auto;
-  width: 40%;
+  width: 100%;   
   color: white;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: center; 
+}
+
+nav li {
+  margin: 0.5rem 1rem;   
 }
 
 nav a {
   color: white;
   text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: yellow;
+  text-decoration: underline;
 }
 
 a {
@@ -69,12 +89,12 @@ a {
   color: white;
   background-color: black;
   font-weight: bold;
-  text-decoration: underline; /* add underline */
+  text-decoration: underline; 
 }
 
 a:hover {
-  color: yellow;          /* change text color on hover */
-  text-decoration: underline; /* keep underline on hover */
+  color: yellow;        
+  text-decoration: underline; 
 }
 
 a:visited {
@@ -90,3 +110,4 @@ a:visited {
   text-decoration: underline;
   width: fit-content;
 }
+
