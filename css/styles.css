@@ -59,7 +59,13 @@ nav ul {
 }
 
 nav li {
-  margin: 0.5rem 1rem;   
+  margin: 0.25rem 0.5rem; 
+}
+
+@media (min-width: 768px) {
+  nav li {
+    margin: 0.5rem 1rem;
+  }
 }
 
 nav a {
@@ -110,4 +116,5 @@ a:visited {
   text-decoration: underline;
   width: fit-content;
 }
+
 
