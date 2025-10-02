@@ -27,6 +27,40 @@
       <p>Find local and online chess clubs to join and improve your skills. <a href="chess_clubs.html">Find Clubs</a></p>
       <p>Read expert insights, strategies, and news from top chess blogs. <a href="chess_blogs.html">Read Blogs</a></p>
     </section>
+
+    <!-- Signup Form Section -->
+    <section id="signup-form">
+      <h2>Stay Connected with Chess Hub</h2>
+      <p>Sign up to receive articles, mailings, and special offers.</p>
+
+      <form action="process_form.php" method="POST">
+        <p>
+          <label for="name">Full Name:</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+          <label for="email">Email Address:</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890">
+        </p>
+        <p>
+          <label for="address">Mailing Address:</label><br>
+          <textarea id="address" name="address" rows="3"></textarea>
+        </p>
+        <p>
+          <input type="checkbox" id="consent" name="consent" required>
+          <label for="consent">I agree to be contacted for promotions, surveys, and updates.</label>
+        </p>
+        <p>
+          <button type="submit">Sign Up</button>
+        </p>
+      </form>
+    </section>
+    <!-- End Signup Form Section -->
+
   </main>
 
   <footer>
@@ -45,7 +79,3 @@
 </body>
 </html>
  
-
-
-
-
